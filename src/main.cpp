@@ -29,7 +29,7 @@ Serveur::Serveur ()
     lexicum->dicLinguam ("fr");
     syntaxe = new Syntaxe (qApp->applicationDirPath () +"/ressources/expressions.fr", lexicum);
     // fprintf (stdout, qPrintable ("lexiques chargés\n"));
-    QDir chDicos (qApp->applicationDirPath () +"/ressources/dicos");
+    QDir chDicos (qApp->applicationDirPath () +"/ressources/");
     QStringList lcfg = chDicos.entryList
     (QStringList () << "*.cfg");
     QStringList ldic;

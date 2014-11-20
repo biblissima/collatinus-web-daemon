@@ -28,7 +28,8 @@
 Dictionnaire::Dictionnaire (QString cfg)
 {
     QFileInfo fi(cfg);
-    repertoire = qApp->applicationDirPath () + "/ressources/dicos/";
+    repertoire = qApp->applicationDirPath () + "/ressources/";
+
     n = fi.baseName ().section ('.', 0);
     // lire le fichier de ressource cfg
     QSettings settings (repertoire + cfg, QSettings::IniFormat);
