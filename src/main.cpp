@@ -239,6 +239,10 @@ void Serveur::exec ()
             listeD.change_courant ("Valbuena_1819");
             repPng = "valbuena";
         }
+        else if (p == "dje") 
+        {
+            listeD.change_courant ("Jeanneau_2013");
+        }
         // extraction, conversion et définition du lien
         listeD.courant ()->setRepPng (repPng);
         ts << listeD.courant ()->page (listekr);
