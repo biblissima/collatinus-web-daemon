@@ -1,5 +1,7 @@
 # Collatinus-web
 
+Ce dépôt contient les sources de Collatinus-web (partie serveur de l'application, sous la forme d'un démon).
+
 Collatinus-web est la version en ligne de [Collatinus](http://outils.biblissima.fr/collatinus), un logiciel de lemmatisation et d'analyse morphologique de textes latins. Il permet de :
 - rechercher un lemme dans plusieurs dictionnaires de latin (Gaffiot, Calonghi, Lewis & Short, du Cange, Georges, Valbuena)
 - fléchir un lemme
