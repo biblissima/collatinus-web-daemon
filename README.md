@@ -28,7 +28,7 @@ La partie serveur (démon) communique avec la partie cliente à travers un socke
 ### Installation et compilation
 
     // Install Qt
-    sudo apt-get install qt4-qmake qt4-qtconfig qt4-dev-tools
+    sudo apt-get install make g++ qt4-qmake qt4-qtconfig qt4-dev-tools
     
     // Compile
     qmake -config release
