@@ -151,7 +151,7 @@ QString Dictionnaire::pageDjvu (int p)
         << flien.arg (suiv).arg(n.left (2).toLower ()).arg("next")
         << "</ul>"
         // image
-        << "<img src=\"png/" << repPng << "/" << p << ".png\">"
+        << "<img src=\"/resources/collatinus-web/png/" << repPng << "/" << p << ".png\">"
          // feuilletage bas
         << "<ul class=\"pager\">\n"
         << flien.arg (prec).arg(n.left (2).toLower ()).arg("previous") 
