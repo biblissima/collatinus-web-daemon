@@ -1,3 +1,6 @@
+*WARNING: This repository is now archived, it is superseded by the [collatinus](https://github.com/biblissima/collatinus) repository, where you will find the source code of both the Collatinus desktop app and the Collatinus daemon used to process requests from the web client (collatinus-web) (see [Daemon](https://github.com/biblissima/collatinus/tree/Daemon) branch)*
+
+
 # Collatinus-web
 
 Ce dépôt contient les sources de Collatinus-web (partie serveur de l'application, sous la forme d'un démon).
